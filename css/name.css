@@ -1,0 +1,6 @@
+.name p{
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,19 @@
+.swiper-slide-items-5{
+     width: 100%;
+        height: 100%;
+        padding-top: 25px;
+}
+.swiper-slide-items-5 img{
+    width: 74px;
+        height: 74px;
+        border-radius: 74px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+}
+.swiper-slide-items-5 span{
+          font-family: var(--font-family);
+          font-size: 11px;
+          display: block;
+          text-align: center !important;
+}

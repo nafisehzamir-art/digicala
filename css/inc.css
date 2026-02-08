@@ -1,0 +1,125 @@
+.inc{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inc-center{
+    width: 100%;
+    max-width: 1350px;
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    background-color: #df314e;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.first{
+    background-color: #df314e;
+}
+.swiper-slide-items{
+    width: 100%;
+    height: 100%;
+}
+.img-inc-1{
+    width: 88px !important;
+    height: 88px !important;
+    display: block;
+    margin: 10px auto !important;
+    outline: none !important;
+}
+.clock{
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    column-gap: 5px;
+    margin: 5px auto;
+    flex-direction: row-reverse;
+}
+.hours, .minutes, .seconds{
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 0 5px;
+    line-height: 25px;
+    border-radius: 5px;
+    font-family: var(--font-familys);
+}
+.colon{
+    color: whitesmoke;
+}
+.img-inc-2{
+    width: 80px !important;
+    height: 80px !important;
+    display: block;
+    margin: 0 auto;
+    
+}
+.inc-link{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: whitesmoke;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+.etc-inc{
+    padding-top: 15px;
+}
+.etc-inc img{
+    width: 132px !important;
+    height: 132px !important;
+    display: block;
+    margin: 0 auto;
+}
+.etc-inc p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: grey;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    padding: 0 5px;
+    
+   
+    
+}
+.price-toman{
+    font-family: var(--font-familys);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.price img{
+    width: 16px !important;
+    height: 16px !important;
+}
+.price-discount{
+    font-family: var(--font-familys);
+    font-size: 14px;
+    padding: 2px 5px;
+    background-color: #da2f4e;
+    color: whitesmoke;
+    border-radius: 16px;
+}
+.price-real{
+    font-family: var(--font-familys);
+    width: fit-content;
+    color: lightgrey;
+    text-decoration: line-through;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}

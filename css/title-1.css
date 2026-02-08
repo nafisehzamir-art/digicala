@@ -1,0 +1,13 @@
+.title-1{
+    width: 100%;
+    height: 60px;
+    background-color: #ef3d52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px !important;
+}
+.title-1 img{
+    width: 250px !important;
+    height: 250px !important;
+}

@@ -1,0 +1,127 @@
+.finish-mains{
+     width: 100%;
+   height: 465px;
+   display: flex;
+   justify-content: center;
+   margin-top: 25px !important;
+   margin-bottom: 15px !important;
+}
+.finish-main{
+     width: 100%;
+    max-width: 1350px;
+   height: 100%;
+    border: 1px solid grey;
+    border-radius: 16px !important;
+    margin: 0 auto;
+}
+.finish-main-center{
+     width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    column-gap: 5px;
+    padding: 20px;
+   
+}
+.finish-main-center p{
+     font-family: var(--font-family);
+    font-size: 17px !important;
+    color: #2b2b2b;
+
+}
+.finish{
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+}
+.finish-center{
+     width: 100%;
+    max-width: 1350px;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-slide-items-6{
+     width: 100%;
+    height: 100%;
+    border-left: 1px solid lightgray;
+    
+}
+.swiper-slide-items-6 span{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #e2113b;
+    padding-right: 15px;
+    padding-top: 10px;
+    
+}
+.swiper-slide-items-6 img{
+     width: 132px;
+    height: 132px;
+    display: block;
+   margin: 0 auto;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.swiper-slide-items-6 p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #2b2b2b;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.price-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    padding: 0 5px;
+     
+}
+.price-toman-1{
+    font-family: var(--font-familys);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.price-1 img{
+    width: 16px !important;
+    height: 16px !important;
+}
+.price-discount-1{
+    font-family: var(--font-familys);
+    font-size: 14px;
+    padding: 2px 5px;
+    background-color: #da2f4e;
+    color: whitesmoke;
+    border-radius: 16px;
+}
+.price-real-1{
+    font-family: var(--font-familys);
+    width: fit-content;
+    color: lightgrey;
+    text-decoration: line-through;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+.svg-item{
+    margin-left: 40px !important;
+}
+.svg-item img{
+    width: 123px !important;
+    height: 14px !important;
+   
+}
+
+
